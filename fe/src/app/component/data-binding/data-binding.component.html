@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-4">
+        one way .ts to .html
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <div class="row">
+            <div class="col-4 bg-success">
+                Interpolation
+                {{courseName}}
+                <input type="text" name="" id="" value="{{courseName}}" placeholder="Enter CourseName">
+                <input type="{{inputType}}" name="" id="" value="Apple">
+            </div>
+            <div class="col-4">
+                PropertyBinding
+                <div [class] = "myClassName">Danger</div>
+                <input type="text" name="" id="" [value]="courseName">
+                <input [type]="inputType" [value]="courseName">
+            </div>
+        </div>
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+        
+    </div>
+</div>
